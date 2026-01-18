@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_dashboard"
+        android:title="Dashboard"
+        android:icon="@drawable/ic_dashboard"
+        android:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/menu_reports"
+        android:title="Reports"
+        android:icon="@drawable/ic_report"
+        android:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/menu_settings"
+        android:title="Settings"
+        android:showAsAction="never"/>
+
+    <item
+        android:id="@+id/menu_logout"
+        android:title="Logout"
+        android:showAsAction="never"/>
+</menu>

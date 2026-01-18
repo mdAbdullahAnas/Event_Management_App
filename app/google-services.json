@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "883109728306",
+    "project_id": "event-cbffa",
+    "storage_bucket": "event-cbffa.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:883109728306:android:c6ec5b607a84a17f18ac2b",
+        "android_client_info": {
+          "package_name": "com.misty.eventmanagement"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDbmMUU5tFFY35DnkZ5IpxI60LDDzR1JKc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

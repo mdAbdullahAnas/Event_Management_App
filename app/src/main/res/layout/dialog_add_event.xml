@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/etEventTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Event Title"/>
+
+        <EditText
+            android:id="@+id/etEventDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Event Description"
+            android:layout_marginTop="8dp"
+            android:minLines="2"
+            android:gravity="top"/>
+
+        <!-- Date Picker -->
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp">
+
+            <EditText
+                android:id="@+id/etEventDate"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:hint="Event Date"
+                android:focusable="false"/>
+
+            <ImageButton
+                android:id="@+id/btnPickDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_calendar"
+                android:contentDescription="Pick Date"/>
+        </LinearLayout>
+
+        <!-- Image Pickers -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add Images (max 4)"
+            android:textStyle="bold"
+            android:layout_marginTop="12dp"/>
+
+        <LinearLayout
+            android:id="@+id/imagePickerContainer"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="4"
+            android:layout_marginTop="4dp">
+
+            <ImageButton
+                android:id="@+id/btnImage1"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="80dp"
+                android:src="@drawable/ic_add_image"
+                android:scaleType="centerCrop"
+                android:contentDescription="Image 1"/>
+
+            <ImageButton
+                android:id="@+id/btnImage2"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="80dp"
+                android:src="@drawable/ic_add_image"
+                android:scaleType="centerCrop"
+                android:contentDescription="Image 2"
+                android:layout_marginStart="4dp"/>
+
+            <ImageButton
+                android:id="@+id/btnImage3"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="80dp"
+                android:src="@drawable/ic_add_image"
+                android:scaleType="centerCrop"
+                android:contentDescription="Image 3"
+                android:layout_marginStart="4dp"/>
+
+            <ImageButton
+                android:id="@+id/btnImage4"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="80dp"
+                android:src="@drawable/ic_add_image"
+                android:scaleType="centerCrop"
+                android:contentDescription="Image 4"
+                android:layout_marginStart="4dp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
